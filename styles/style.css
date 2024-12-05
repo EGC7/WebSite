@@ -15,6 +15,7 @@ body{
     background-size: cover;
     /* backdrop-filter: brightness(.5); */
     background: radial-gradient(circle, rgba(0, 0, 0, .2) 20%, rgba(0, 0, 0, .7) 80%, black 100%), url("../images/backgroundPortifas.jpg") center top;
+    background-repeat: no-repeat;
     color: white;
 }
 

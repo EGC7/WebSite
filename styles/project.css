@@ -10,6 +10,16 @@
 }
 
 
+body{
+    display: flex;
+    height: 100dvh;
+    background-size: cover;
+    /* backdrop-filter: brightness(.5); */
+    background: radial-gradient(circle, rgba(0, 0, 0, .2) 20%, rgba(0, 0, 0, .7) 80%, black 100%), url("../images/backgroundPortifas.jpg") top;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    color: white;
+}
 #aboutMe{
     width: 97dvw;
     display: flex;
@@ -59,6 +69,13 @@
             }
         }
 
+        & #house{
+            background: url("../images/house-icon.svg") no-repeat;
+            background-position: center;
+            background-size: cover;
+            filter: invert(1);
+        }
+
         & #midia1{
             background: url("../images/instagram-icon.svg") no-repeat;
             background-position: center;
@@ -74,5 +91,36 @@
             background-position: center;
             filter: invert(1);
         }
+    }
+}
+
+#projectsBase{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    box-shadow: 0px -3px 1px rgba(0, 0, 0, 0.5);
+    transition: all .7s ease-out;
+
+}
+
+& .projectsBody{
+    display: flex;
+    flex-direction: column;
+    & header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid black;
+        padding-bottom: 7px;
+        & h1{
+            font-size: 4rch;
+            font-family: "Titillium Web", sans-serif;
+            font-weight: bold;
+        }
+    }
+    & .titleImg{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
     }
 }
