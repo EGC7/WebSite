@@ -1,0 +1,27 @@
+#certifBody{
+    display: flex;
+    align-items: center;
+}
+
+#certificates{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.certs{
+    width: 300px;
+    height: 220px;
+    transition: all .4s ease-out;
+    &:hover{
+        scale: 1.2;
+    }
+}
+
+.certs img{
+    width: 100%;
+    height: 100%;
+}
