@@ -159,6 +159,8 @@
                 padding: 5px;
                 background: rgb(241, 177, 58);
                 border-radius: 5px;
+                font-size: calc(13px + 20%);
+                font-family: "Titillium Web", sans-serif;
             }
         }
         & #myContact{
