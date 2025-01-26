@@ -1,4 +1,4 @@
-if (window.matchMedia("(min-width: 770px)").matches){
+if (window.matchMedia("(min-width: 770px)").matches && window.matchMedia("(max-width: 1440px)").matches){
     const listOfButtons = document.querySelectorAll(".buttonsMax")
 
     let circleMax = document.createElement("div")
