@@ -1,7 +1,7 @@
 #projectBody{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 15px;
 
     & h1{
         align-self: center;
@@ -14,7 +14,7 @@
         font-size: calc(12px + 25%);
         margin-bottom: 20px;
     }
-
+w
     & #sampleList{
         list-style: none;
         display: flex;
@@ -115,7 +115,7 @@
                 align-items: center;
                 flex-flow: column wrap;
                 word-wrap: break-word;
-                gap: 10px;
+                gap: 5px;
                 width: 90%;
                 height: auto;
                 transition: all .5s ease-out;

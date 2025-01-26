@@ -21,7 +21,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     border-top: 1.4px solid rgba(128, 128, 128, 0.6);
-    margin-top: 20px;
     padding: 25px 10px;
     & #copy{
         font-size: calc(10px + 40%);
