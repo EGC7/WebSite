@@ -18,3 +18,10 @@ v1.3
   > Mudança do Nome da Página
   > Reorganização do Layout
   > Implementação de Rodapé 
+
+v1.4
+  > Otimização do click customizado
+  > Novo Título "My Work" Nos Projetos
+  > Reorganização Da Seção Dos Projetos
+  > Reformulação Da Seção "Sobre Mim"
+  > Ajuste No Tamanho Das Fontes
