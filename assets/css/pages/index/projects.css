@@ -14,7 +14,7 @@
         font-size: calc(12px + 25%);
         margin-bottom: 20px;
     }
-w
+
     & #sampleList{
         list-style: none;
         display: flex;
