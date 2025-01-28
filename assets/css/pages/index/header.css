@@ -53,23 +53,57 @@
 }
 
 #extraInfo{
-    max-width: 30%;
+    max-width: 100%;
     padding-left: 25px;
     display: flex;
-    flex-flow: column wrap;
+    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
+
+    & section{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 10px;
+        max-width: 50%;
+    }
+
+    & h3 {
+        max-width: 90%;
+        font-size: calc(15px + 25%);
+        font-family: "Titillium Web", sans-serif;
+        color: white;
+
+        & p{
+            text-indent: 4%;
+        }
+    }
+
+    & .bold{
+        color: #666;
+    }
+
+    & .textReference{
+        color: #eee;
+    }
+
+    & .midiaLinks{
+        color: #8ebbff;
+    }
     & main{
         margin-left: 4%;
         font-size: calc(20px + 40%);
         font-family: "Titillium Web", sans-serif;
         font-weight: bolder;
+        margin-bottom: 4%;
+        text-align: center;
     }
 
     & #skills{
         list-style: none;
         display: flex;
         flex-flow: row wrap;
-        max-width: 80%;
+        max-width: 45%;
         gap: 20px;
 
         & .skillItem{
@@ -80,74 +114,65 @@
             padding: 5px;
             background: rgb(241, 177, 58);
             border-radius: 5px;
+            font-size: calc(15px + 25%);
         }
-    }
-    & #myContact{
-        margin-top: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        list-style: none;
-        
-        & li{
-            border-radius: 25px;
-            padding: 10px;
-        }
-
-        & #contact1{
-            background: white;
-            color: black;
-        }
-        
-        & #contact2{
-            background: rgba(255, 193, 7, 1);
-            color: black;
-
-        }
-
-        
-    }
-}
-
-#avaliableDiv{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-    gap: 10px;
-    & #color{
-        width: 15px;
-        height: 15px;
-        background: white;
-        border-radius: 50%;
-    }
-
-    & #text{
-        font-size: calc(12px + 20%);
-        font-family: "Titillium Web", sans-serif;
     }
 }
 
 @media (max-width: 540px){
     #extraInfo{
         max-width: 100%;
-        padding-left: 25px;
         display: flex;
+        align-items: center;
         flex-flow: column wrap;
+        align-items: flex-start;
         justify-content: space-evenly;
+        gap: 30px;
+        & section{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            gap: 10px;
+            max-width: 98%;
+        }
     
+        & h3 {
+            max-width: 90%;
+            font-size: calc(15px + 25%);
+            font-family: "Titillium Web", sans-serif;
+            color: white;
+    
+            & p{
+                text-indent: 4%;
+                text-align: justify;
+            }
+        }
+    
+        & .bold{
+            color: #666;
+        }
+    
+        & .textReference{
+            color: #eee;
+        }
+    
+        & .midiaLinks{
+            color: #8ebbff;
+        }
         & main{
             margin-left: 4%;
             font-size: calc(20px + 40%);
             font-family: "Titillium Web", sans-serif;
             font-weight: bolder;
+            margin-bottom: 4%;
+            text-align: center;
         }
     
         & #skills{
             list-style: none;
             display: flex;
             flex-flow: row wrap;
-            max-width: 90%;
+            max-width: 98%;
             gap: 20px;
     
             & .skillItem{
@@ -158,34 +183,8 @@
                 padding: 5px;
                 background: rgb(241, 177, 58);
                 border-radius: 5px;
-                font-size: calc(13px + 20%);
-                font-family: "Titillium Web", sans-serif;
+                font-size: calc(15px + 25%);
             }
-        }
-        & #myContact{
-            margin-top: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            list-style: none;
-            
-            & li{
-                border-radius: 25px;
-                padding: 10px;
-            }
-    
-            & #contact1{
-                background: white;
-                color: black;
-            }
-            
-            & #contact2{
-                background: rgba(255, 193, 7, 1);
-                color: black;
-    
-            }
-    
-            
         }
     }
 }

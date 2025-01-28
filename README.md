@@ -25,3 +25,12 @@ v1.4
   > Reorganização Da Seção Dos Projetos
   > Reformulação Da Seção "Sobre Mim"
   > Ajuste No Tamanho Das Fontes
+
+v1.5
+  > Texto de Introdução
+  > Área do Aside "Extra Info" Reformulado
+  > Otimização da Responsividade do Site
+  > Seções Com Respectivos Títulos
+  > Divisórias Entre As Seções
+  > Links de Referência Dentro de Textos
+  > Mudança Das Cores Do Background
